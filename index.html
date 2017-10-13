@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>表格一行渐变方法</title>
+    <style>
+        table {
+            border-collapse:collapse;
+        }
+        #grad1 {
+            width: 100%;
+            height: 100px;
+            background: linear-gradient(to right, #aaa , #f90);
+        }
+        #grad1 th {
+            padding: 0;
+            margin: 0;
+            width: 100px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h3>线性渐变 - 从左到右</h3>
+<p>从左边开始的线性渐变。</p>
+<table class="fm-table">
+    <thead>
+    <tr id="grad1">
+        <th style="border-left-color: #52ccff;" cellspacing="0" cellpadding="0">时间</th>
+        <th cellspacing="0" cellpadding="0">主题</th>
+        <th cellspacing="0" cellpadding="0">嘉宾</th>
+    </tr>
+    </thead>
+</table>
+
+
+<p><strong>注意：</strong> Internet Explorer 9 及之前的版本不支持渐变。</p>
+
+</body>
+</html>
